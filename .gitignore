@@ -1,6 +1,6 @@
 # Binaries for programs and plugins
-*.exe
 *.dll
+*.exe
 *.so
 *.dylib
 
@@ -12,3 +12,6 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+# Dist files
+dist

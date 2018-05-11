@@ -26,17 +26,17 @@ func main() {
 	flag.StringVar(&p.SmallAlphaPool,
 		"small-alpha-pool",
 		"abcdefghijklmnopqrstuvwxyz",
-		"Permitted capital letters",
+		"Permitted small letters",
 	)
 	flag.StringVar(&p.DigitPool,
 		"digit-pool",
 		"0123456789",
-		"Permitted capital letters",
+		"Permitted digits",
 	)
 	flag.StringVar(&p.SpclCharPool,
 		"spcl-char-pool",
 		"!@#$%^&*()-_=+,.?/:;{}[]~",
-		"Permitted capital letters",
+		"Permitted special characters",
 	)
 
 	flag.Parse()

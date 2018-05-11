@@ -26,23 +26,23 @@ gopgcli -h
 ```bash
 Usage of gopgcli:
   -caps-alpha-pool string
-    	Permitted capital letters (default "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+        Permitted capital letters (default "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
   -digit-pool string
-    	Permitted capital letters (default "0123456789")
+        Permitted digits (default "0123456789")
   -max-length int
-    	Maximum length of password (default 16)
+        Maximum length of password (default 16)
   -min-caps-alpha int
-    	Minimun length of capital letters
+        Minimun length of capital letters
   -min-digits int
-    	Minimun length of digits
+        Minimun length of digits
   -min-length int
-    	Minimum length of password (default 6)
+        Minimum length of password (default 6)
   -min-small-alpha int
-    	Minimun length of small letters
+        Minimun length of small letters
   -min-spcl-chars int
-    	Minimun length of spcial characters
+        Minimun length of spcial characters
   -small-alpha-pool string
-    	Permitted capital letters (default "abcdefghijklmnopqrstuvwxyz")
+        Permitted small letters (default "abcdefghijklmnopqrstuvwxyz")
   -spcl-char-pool string
-    	Permitted capital letters (default "!@#$%^&*()-_=+,.?/:;{}[]~")
+        Permitted special characters (default "!@#$%^&*()-_=+,.?/:;{}[]~")
 ```

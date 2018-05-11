@@ -14,14 +14,14 @@ go get -u github.com/sayanarijit/gopgcli
 ### Direct download
 
 * Windows
-    * [amd64](https://github.com/sayanarijit/gopgcli/blob/dist/windows-amd64/gopgcli.exe)
-    * [i386](https://github.com/sayanarijit/gopgcli/blob/dist/windows-amd64/gopgcli.exe)
+    * [amd64](https://github.com/sayanarijit/gopgcli/raw/dist/windows-amd64/gopgcli.exe)
+    * [i386](https://github.com/sayanarijit/gopgcli/raw/dist/windows-amd64/gopgcli.exe)
 * Linux
-    * [amd64](https://github.com/sayanarijit/gopgcli/blob/dist/linux-amd64/gopgcli)
-    * [i386](https://github.com/sayanarijit/gopgcli/blob/dist/linux-386/gopgcli)
+    * [amd64](https://github.com/sayanarijit/gopgcli/raw/dist/linux-amd64/gopgcli)
+    * [i386](https://github.com/sayanarijit/gopgcli/raw/dist/linux-386/gopgcli)
 * Darwin
-    * [amd64](https://github.com/sayanarijit/gopgcli/blob/dist/darwin-amd64/gopgcli)
-    * [i386](https://github.com/sayanarijit/gopgcli/blob/dist/darwin-386/gopgcli)
+    * [amd64](https://github.com/sayanarijit/gopgcli/raw/dist/darwin-amd64/gopgcli)
+    * [i386](https://github.com/sayanarijit/gopgcli/raw/dist/darwin-386/gopgcli)
 
 ### Run
 

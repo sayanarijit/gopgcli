@@ -1,6 +1,5 @@
 # gopgcli
 
-[![GoDoc](https://godoc.org/github.com/sayanarijit/gopgcli?status.svg)](https://godoc.org/github.com/sayanarijit/gopgcli)
 [![Go Report Card](https://goreportcard.com/badge/github.com/sayanarijit/gopgcli)](https://goreportcard.com/report/github.com/sayanarijit/gopgcli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/sayanarijit/gopgcli/blob/master/LICENSE)
 

@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/sayanarijit/gopgcli",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/sayanarijit/gopassgen",
+			"Rev": "e326d5b77287ef097fa6fc4a6e8a6dd92470054b"
+		}
+	]
+}

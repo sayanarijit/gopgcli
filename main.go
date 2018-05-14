@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"os"
 
 	"github.com/sayanarijit/gopassgen"
 )
@@ -41,5 +42,11 @@ func main() {
 
 	flag.Parse()
 
+	defer func() {
+		if r := recover(); r != nil {
+			fmt.Fprintln(os.Stderr, "error:", r)
+			os.Exit(1)
+		}
+	}()
 	fmt.Println(gopassgen.Generate(p))
 }

@@ -5,13 +5,7 @@
 
 This tool uses [gopassgen](https://github.com/sayanarijit/gopassgen) library to generate password based on given policy.
 
-### Install with go get
-
-```bash
-go get -u github.com/sayanarijit/gopgcli
-```
-
-### Direct download
+### Download binary
 
 * Windows
     * [amd64](https://github.com/sayanarijit/gopgcli/raw/dist/windows-amd64/gopgcli.exe)

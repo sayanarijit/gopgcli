@@ -14,20 +14,20 @@ func main() {
 	flag.IntVar(&p.MaxLength, "max-length", 16, "Maximum length of password")
 	flag.IntVar(&p.MinLength, "min-length", 6, "Minimum length of password")
 
-	flag.IntVar(&p.MinCapsAlpha, "min-caps-alpha", 0, "Minimun length of capital letters")
-	flag.IntVar(&p.MinSmallAlpha, "min-small-alpha", 0, "Minimun length of small letters")
+	flag.IntVar(&p.MinUppers, "min-uppers", 0, "Minimun length of upper case letters")
+	flag.IntVar(&p.MinUppers, "min-lowers", 0, "Minimun length of lower case letters")
 	flag.IntVar(&p.MinDigits, "min-digits", 0, "Minimun length of digits")
 	flag.IntVar(&p.MinSpclChars, "min-spcl-chars", 0, "Minimun length of spcial characters")
 
-	flag.StringVar(&p.CapsAlphaPool,
-		"caps-alpha-pool",
+	flag.StringVar(&p.UpperPool,
+		"upper-pool",
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-		"Permitted capital letters",
+		"Permitted upper case letters",
 	)
-	flag.StringVar(&p.SmallAlphaPool,
-		"small-alpha-pool",
+	flag.StringVar(&p.LowerPool,
+		"lower-pool",
 		"abcdefghijklmnopqrstuvwxyz",
-		"Permitted small letters",
+		"Permitted lower case letters",
 	)
 	flag.StringVar(&p.DigitPool,
 		"digit-pool",
@@ -42,11 +42,10 @@ func main() {
 
 	flag.Parse()
 
-	defer func() {
-		if r := recover(); r != nil {
-			fmt.Fprintln(os.Stderr, "error:", r)
-			os.Exit(1)
-		}
-	}()
-	fmt.Println(gopassgen.Generate(p))
+	r, err := gopassgen.Generate(p)
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "error:", err)
+		os.Exit(1)
+	}
+	fmt.Println(r)
 }

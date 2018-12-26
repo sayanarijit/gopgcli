@@ -3,13 +3,15 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:2285d0bd78c166baa863ada63dd913696808bda26d76ed23009a8f39c08ed633"
   name = "github.com/sayanarijit/gopassgen"
   packages = ["."]
-  revision = "e326d5b77287ef097fa6fc4a6e8a6dd92470054b"
+  pruneopts = "UT"
+  revision = "1d3c191735ad6043890ca99418a2d660f9237b93"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2b710f5cdc8a493945e2cfcc30cf02bc890f2d525bef71f9208c8c7266105e5c"
+  input-imports = ["github.com/sayanarijit/gopassgen"]
   solver-name = "gps-cdcl"
   solver-version = 1

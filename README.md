@@ -7,7 +7,8 @@ This tool uses [gopassgen](https://github.com/sayanarijit/gopassgen) library to 
 
 ### Download binary
 
-[download latest release here](https://github.com/sayanarijit/gopgcli/releases/latest)
+[latest release](https://github.com/sayanarijit/gopgcli/releases/latest)
+
 [all releases](https://github.com/sayanarijit/gopgcli/releases)
 
 ### Run

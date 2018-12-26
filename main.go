@@ -15,7 +15,7 @@ func main() {
 	flag.IntVar(&p.MinLength, "min-length", 6, "Minimum length of password")
 
 	flag.IntVar(&p.MinUppers, "min-uppers", 0, "Minimun length of upper case letters")
-	flag.IntVar(&p.MinUppers, "min-lowers", 0, "Minimun length of lower case letters")
+	flag.IntVar(&p.MinLowers, "min-lowers", 0, "Minimun length of lower case letters")
 	flag.IntVar(&p.MinDigits, "min-digits", 0, "Minimun length of digits")
 	flag.IntVar(&p.MinSpclChars, "min-spcl-chars", 0, "Minimun length of spcial characters")
 

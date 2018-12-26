@@ -3,11 +3,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:2285d0bd78c166baa863ada63dd913696808bda26d76ed23009a8f39c08ed633"
+  digest = "1:9c90f31c3a268b6e5d1b934f6c5815305ff561514a0af17388ec32e744481fda"
   name = "github.com/sayanarijit/gopassgen"
   packages = ["."]
   pruneopts = "UT"
-  revision = "1d3c191735ad6043890ca99418a2d660f9237b93"
+  revision = "9d050a1927f6f2c42b7aa6f64365b54319e003e1"
 
 [solve-meta]
   analyzer-name = "dep"

@@ -7,15 +7,8 @@ This tool uses [gopassgen](https://github.com/sayanarijit/gopassgen) library to 
 
 ### Download binary
 
-* Windows
-    * [amd64](https://github.com/sayanarijit/gopgcli/raw/dist/windows-amd64/gopgcli.exe)
-    * [i386](https://github.com/sayanarijit/gopgcli/raw/dist/windows-amd64/gopgcli.exe)
-* Linux
-    * [amd64](https://github.com/sayanarijit/gopgcli/raw/dist/linux-amd64/gopgcli)
-    * [i386](https://github.com/sayanarijit/gopgcli/raw/dist/linux-386/gopgcli)
-* Darwin
-    * [amd64](https://github.com/sayanarijit/gopgcli/raw/dist/darwin-amd64/gopgcli)
-    * [i386](https://github.com/sayanarijit/gopgcli/raw/dist/darwin-386/gopgcli)
+[download latest release here](https://github.com/sayanarijit/gopgcli/releases/latest)
+[all releases](https://github.com/sayanarijit/gopgcli/releases)
 
 ### Run
 
@@ -30,25 +23,25 @@ gopgcli -h
 ```
 
 ```bash
-Usage of gopgcli:
-  -caps-alpha-pool string
-        Permitted capital letters (default "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+Usage of ./gopgcli:
   -digit-pool string
         Permitted digits (default "0123456789")
+  -lower-pool string
+        Permitted lower case letters (default "abcdefghijklmnopqrstuvwxyz")
   -max-length int
         Maximum length of password (default 16)
-  -min-caps-alpha int
-        Minimun length of capital letters
   -min-digits int
         Minimun length of digits
   -min-length int
         Minimum length of password (default 6)
-  -min-small-alpha int
-        Minimun length of small letters
+  -min-lowers int
+        Minimun length of lower case letters
   -min-spcl-chars int
         Minimun length of spcial characters
-  -small-alpha-pool string
-        Permitted small letters (default "abcdefghijklmnopqrstuvwxyz")
+  -min-uppers int
+        Minimun length of upper case letters
   -spcl-char-pool string
         Permitted special characters (default "!@#$%^&*()-_=+,.?/:;{}[]~")
+  -upper-pool string
+        Permitted upper case letters (default "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 ```
